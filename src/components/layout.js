@@ -9,7 +9,7 @@ const container = css`
 `
 
 const heading = css`
-  color: rebeccapurple;
+  color: rgb(219, 31, 55);
 `
 
 const navLinks = css`
