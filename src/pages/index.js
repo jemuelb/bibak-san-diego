@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 
 const IndexPage = () => {
     return (
-        <Layout pageTitle="BIBAK San Diego">
+        <Layout pageTitle="Home">
             <p>Towards the northern most part of the island of luzon lies the cordillera mountain range. These
                 mountains
                 were formerly called the mountain province and were divided into five sub-provinces namely
