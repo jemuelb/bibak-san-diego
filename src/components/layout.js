@@ -38,6 +38,15 @@ const Layout = ({pageTitle, children}) => {
                     <li css={navLinkItem}>
                         <Link to="/about" css={navLinkText}>About</Link>
                     </li>
+                    <li css={navLinkItem}>
+                        <Link
+                            to="https://www.facebook.com/groups/117966411709158/"
+                            css={navLinkText}
+                        >
+                            Facebook Group
+                        </Link>
+                    </li>
+
                 </ul>
             </nav>
             <h1 css={heading}>{pageTitle}</h1>

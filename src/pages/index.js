@@ -37,6 +37,9 @@ const IndexPage = () => {
                 bibak and the others are organizations of igorots. Bibak is an organization that reflects the
                 solidarity and
                 desire to preserve the uniqueness of the igorot culture.</p>
+            <p>
+                Join us in our active <a href="https://www.facebook.com/groups/117966411709158/">Facebook Group</a>
+            </p>
         </Layout>
     )
 }
