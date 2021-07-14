@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {Link} from 'gatsby'
+import {Link, useStaticQuery, graphql} from 'gatsby'
 import {css} from '@emotion/react'
 
 const container = css`
@@ -26,10 +26,27 @@ const navLinkText = css`
   color: black;
 `
 
+const siteTitle = css`
+  font-size: 2.5rem;
+  color: gray;
+  font-weight: 700;
+`
+
 const Layout = ({pageTitle, children}) => {
+    const data = useStaticQuery(graphql`
+        query {
+            site {
+                siteMetadata{
+                    title
+                }
+            }
+        }
+    `)
+
     return (
         <main css={container}>
-            <title>{pageTitle}</title>
+            <title>{pageTitle} | {data.site.siteMetadata.title}</title>
+            <p css={siteTitle}>{data.site.siteMetadata.title}</p>
             <nav>
                 <ul css={navLinks}>
                     <li css={navLinkItem}>
