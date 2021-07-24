@@ -1,10 +1,17 @@
+// noinspection CheckTagEmptyBody
+
 import * as React from 'react'
 import {Link} from 'gatsby'
+import {css} from '@emotion/react'
+
+const navStyle = css`
+  max-width: 1200px;
+`
 
 const Header = () => {
     return (
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-            <div className="container-fluid">
+            <div className="container-fluid" css={navStyle}>
                 <Link to="/" className="navbar-brand">BIBAK San Diego</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
