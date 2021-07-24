@@ -2,10 +2,6 @@ import * as React from 'react'
 import {useStaticQuery, graphql} from 'gatsby'
 import Header from './header'
 
-const mainClass = [
-    "container"
-]
-
 const Layout = ({pageTitle, children}) => {
     const data = useStaticQuery(graphql`
         query {
@@ -21,7 +17,7 @@ const Layout = ({pageTitle, children}) => {
         <main>
             <title>{pageTitle} | {data.site.siteMetadata.title}</title>
             <Header/>
-            <div className={mainClass.join(" ")}>
+            <div className="container">
                 <h1>{pageTitle}</h1>
                 {children}
             </div>
