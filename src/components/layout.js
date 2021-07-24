@@ -23,7 +23,12 @@ const Layout = ({pageTitle, children}) => {
         <main>
             <title>{pageTitle} | {data.site.siteMetadata.title}</title>
             <Header/>
-            <StaticImage src="../images/hero.jpg" alt="Hero image"/>
+            <StaticImage
+                src="../images/hero.jpg"
+                alt="Hero image"
+                placeholder="blurred"
+                aspectRatio={16/9}
+            />
             <div className="container" css={container}>
                 <h1>{pageTitle}</h1>
                 {children}
