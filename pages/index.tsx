@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import {Container, Row, Col} from 'react-bootstrap';
 
 export default function Home() {
     return (
@@ -8,10 +9,16 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             <main>
-              <h1>BIBAK San Diego</h1>
-                <div>
-                    Landing Page
-                </div>
+              <Container>
+                  <Row>
+                      <h1>BIBAK San Diego</h1>
+                  </Row>
+                  <Row>
+                      <Col>
+                          This is a temporary holding page.
+                      </Col>
+                  </Row>
+              </Container>
             </main>
         </>
     )
