@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import {Container} from 'react-bootstrap';
 
-export default function Home() {
+const Home = () => {
     return (
         <>
             <Head>
@@ -46,3 +46,5 @@ export default function Home() {
         </>
     )
 }
+
+export default Home;
