@@ -12,9 +12,9 @@ const Home = () => {
             <main>
                 <Container>
                     <header className="pb-3 mb-4 border-bottom">
-                        <a href="/" className="d-flex align-items-center text-dark text-decoration-none">
+                        <Link href="/" className="d-flex align-items-center text-dark text-decoration-none">
                             <span className="fs-4">BIBAK San Diego</span>
-                        </a>
+                        </Link>
                     </header>
                     <div className="p-5 mb-4 bg-light rounded-3">
                         <div className="container-fluid py-5">
