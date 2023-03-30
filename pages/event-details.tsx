@@ -40,6 +40,9 @@ const EventDetails = () => {
                         Kirin Macapugay - kirin568@gmail.com
                         Jackie Fianza - jackie.fianza@gmail.com
                     </div>
+                    <div>
+                        <a href='/flyer.jpg'>Link to the flyer</a>
+                    </div>
                     <Link href='/'>Go Back</Link>
                 </Col>
             </Row>
