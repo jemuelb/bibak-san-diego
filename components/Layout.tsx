@@ -3,7 +3,7 @@ import {Container} from 'react-bootstrap';
 import Header from "@/components/Header";
 
 type LayoutProps = {
-    children: JSX.Element;
+    children: JSX.Element[];
     title: string;
 }
 
