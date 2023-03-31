@@ -6,9 +6,11 @@ const EventDetails = () => {
     return (
         <Layout title={'Event Details'}>
             <Row>
-                <Col>
-                    <h1>Grand Canao</h1>
-                    <h3>The Beat Must Go On</h3>
+                <Col className="d-flex justify-content-center mb-3">
+                    <div className="d-flex flex-column justify-content-center mb-3">
+                        <h1>Grand Canao</h1>
+                        <h3>The Beat Must Go On</h3>
+                    </div>
                 </Col>
             </Row>
             <Row>

@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import {Container} from 'react-bootstrap';
 import Header from "@/components/Header";
+import React from 'react';
 
 type LayoutProps = {
-    children: JSX.Element[];
+    children?: React.ReactNode;
     title: string;
 }
 
