@@ -9,7 +9,10 @@ const EventDetails = () => {
                 <Col>
                     <h1>Grand Canao</h1>
                     <h3>The Beat Must Go On</h3>
-
+                </Col>
+            </Row>
+            <Row>
+                <Col>
                     <div>
                         September 2, 2023
                         Town and Country San Diego
@@ -43,6 +46,10 @@ const EventDetails = () => {
                     <div>
                         <a href='/flyer.jpg'>Link to the flyer</a>
                     </div>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
                     <Link href='/'>Go Back</Link>
                 </Col>
             </Row>
