@@ -16,7 +16,7 @@ const EventDetails = () => {
                     <div className="text-center">September 2, 2023</div>
                 </Col>
             </Row>
-            <Row className="mb-3">
+            <Row className="mb-5">
                 <Col md={6}>
                     <div>
                         <h2><i className="bi bi-map"></i> Venue</h2>
@@ -37,28 +37,40 @@ const EventDetails = () => {
                     </div>
                 </Col>
             </Row>
-            <Row className="mb-3">
+            <Row className="mb-5">
                 <div>
                     <h2><i className="bi bi-calendar-event"></i> Additional Events</h2>
                 </div>
                 <Col md={6}>
                     <div>
-                        Welcome Party
-                        5:00 PM, September 1, 2023
-                        1852 Camino Mojave
-                        Chula Vista, CA 91914
+                        <h5>Welcome Party 🥳</h5>
+                    </div>
+                    <div>
+                        <div>
+                            5:00 PM, September 1, 2023
+                        </div>
+                        <address>
+                            <div>1852 Camino Mojave</div>
+                            <div>Chula Vista, CA 91914</div>
+                        </address>
                     </div>
                 </Col>
                 <Col md={6}>
                     <div>
-                        Send Off Party
-                        12:00 PM, September 3, 2023
-                        Rhor Park, 4548 Sweetwater Rd
-                        Bonita, CA 91902
+                        <h5>Send Off Party 👋</h5>
+                    </div>
+                    <div>
+                        <div>
+                            12:00 PM, September 3, 2023
+                        </div>
+                        <address>
+                            <div>Rhor Park, 4548 Sweetwater Rd</div>
+                            <div>Bonita, CA 91902</div>
+                        </address>
                     </div>
                 </Col>
             </Row>
-            <Row className="mb-3">
+            <Row className="mb-5">
                 <div>
                     <h2><i className="bi bi-person"></i> Contact information</h2>
                 </div>
