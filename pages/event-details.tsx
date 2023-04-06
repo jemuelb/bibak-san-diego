@@ -32,8 +32,13 @@ const EventDetails = () => {
                         <h2><i className="bi bi-ticket"></i> Tickets</h2>
                     </div>
                     <div>
-                        Tickets: $90 per person
-                        $45 12 years old & below
+                        <div>
+                            <span className="fw-bold">$90</span> per person
+                        </div>
+                        <div>
+                            <span className="fw-bold">$45</span> 12 years old & below
+                        </div>
+                        <div className="mt-3">For tickets reach out to one of our contacts below.</div>
                     </div>
                 </Col>
             </Row>
@@ -72,14 +77,24 @@ const EventDetails = () => {
             </Row>
             <Row className="mb-5">
                 <div>
-                    <h2><i className="bi bi-person"></i> Contact information</h2>
+                    <h2><i className="bi bi-person"></i> Contact Information</h2>
                 </div>
-                <Col>
+                <Col md={6}>
                     <div>
-                        Carlo J. Basallo - Carlene07@hotmail.com
-                        Kaila Domingo - domingokaila@gmail.com
-                        Kirin Macapugay - kirin568@gmail.com
-                        Jackie Fianza - jackie.fianza@gmail.com
+                        <div>
+                            Carlo J. Basallo - <a href="mailto:Carlene07@hotmail.com">Carlene07@hotmail.com</a>
+                        </div>
+                        <div>
+                            Kaila Domingo - <a href="mailto:domingokaila@gmail.com">domingokaila@gmail.com</a>
+                        </div>
+                    </div>
+                </Col>
+                <Col md={6}>
+                    <div>
+                        Kirin Macapugay - <a href="mailto:kirin568@gmail.com">kirin568@gmail.com</a>
+                    </div>
+                    <div>
+                        Jackie Fianza - <a href="mailto:jackie.fianza@gmail.com">jackie.fianza@gmail.com</a>
                     </div>
                 </Col>
             </Row>
