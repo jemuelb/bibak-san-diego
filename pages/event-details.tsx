@@ -5,7 +5,7 @@ import {Col, Row} from "react-bootstrap";
 const EventDetails = () => {
     return (
         <Layout title={'Event Details'}>
-            <Row>
+            <Row className="mb-5">
                 <Col>
                     <div className="text-center">
                         <h1>Grand Canao</h1>
@@ -17,31 +17,39 @@ const EventDetails = () => {
                 </Col>
             </Row>
             <Row className="mb-3">
+                <div>
+                    <h2><i className="bi bi-map"></i> Venue</h2>
+                </div>
                 <Col>
                     <address>
-                        <div>Town and Country San Diego</div>
+                        <div><a href="https://www.towncountry.com/">Town and Country Resort - San Diego</a></div>
                         <div>500 Hotel Circle North</div>
                         <div>San Diego, CA 92108</div>
                     </address>
                 </Col>
             </Row>
             <Row className="mb-3">
+                <div>
+                    <h2><i className="bi bi-ticket"></i> Tickets</h2>
+                </div>
                 <Col>
                     Tickets: $90 per person
                     $45 12 years old & below
                 </Col>
             </Row>
             <Row className="mb-3">
-                <Col>
+                <div>
+                    <h2><i className="bi bi-calendar-event"></i> Additional Events</h2>
+                </div>
+                <Col sm={6}>
                     <div>
-                        Additional Events:
                         Welcome Party
                         5:00 PM, September 1, 2023
                         1852 Camino Mojave
                         Chula Vista, CA 91914
                     </div>
                 </Col>
-                <Col>
+                <Col sm={6}>
                     <div>
                         Send Off Party
                         12:00 PM, September 3, 2023
@@ -51,10 +59,10 @@ const EventDetails = () => {
                 </Col>
             </Row>
             <Row className="mb-3">
+                <div>
+                    <h2><i className="bi bi-person"></i> Contact information</h2>
+                </div>
                 <Col>
-                    <div>
-                        Contact information
-                    </div>
                     <div>
                         Carlo J. Basallo - Carlene07@hotmail.com
                         Kaila Domingo - domingokaila@gmail.com
