@@ -17,31 +17,31 @@ const EventDetails = () => {
                 </Col>
             </Row>
             <Row className="mb-3">
-                <div>
-                    <h2><i className="bi bi-map"></i> Venue</h2>
-                </div>
-                <Col>
+                <Col md={6}>
+                    <div>
+                        <h2><i className="bi bi-map"></i> Venue</h2>
+                    </div>
                     <address>
                         <div><a href="https://www.towncountry.com/">Town and Country Resort - San Diego</a></div>
                         <div>500 Hotel Circle North</div>
                         <div>San Diego, CA 92108</div>
                     </address>
                 </Col>
-            </Row>
-            <Row className="mb-3">
-                <div>
-                    <h2><i className="bi bi-ticket"></i> Tickets</h2>
-                </div>
-                <Col>
-                    Tickets: $90 per person
-                    $45 12 years old & below
+                <Col md={6}>
+                    <div>
+                        <h2><i className="bi bi-ticket"></i> Tickets</h2>
+                    </div>
+                    <div>
+                        Tickets: $90 per person
+                        $45 12 years old & below
+                    </div>
                 </Col>
             </Row>
             <Row className="mb-3">
                 <div>
                     <h2><i className="bi bi-calendar-event"></i> Additional Events</h2>
                 </div>
-                <Col sm={6}>
+                <Col md={6}>
                     <div>
                         Welcome Party
                         5:00 PM, September 1, 2023
@@ -49,7 +49,7 @@ const EventDetails = () => {
                         Chula Vista, CA 91914
                     </div>
                 </Col>
-                <Col sm={6}>
+                <Col md={6}>
                     <div>
                         Send Off Party
                         12:00 PM, September 3, 2023
