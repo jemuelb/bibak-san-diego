@@ -39,10 +39,10 @@ const EventDetails = () => {
                             <span className="fw-bold">$45</span> 12 years old & below
                         </div>
                         <div className="mt-3">
-                            <div>
+                            <div className="mb-1">
                                 Fill out the form below to request tickets:
                             </div>
-                            <a href="https://forms.gle/n7xrBdsNxz6KDHLT6">
+                            <a href="https://forms.gle/9irsE4xQDqJDHkvY8">
                                 <button className="btn btn-primary">Request Tickets!</button>
                             </a>
                         </div>
@@ -105,6 +105,20 @@ const EventDetails = () => {
                     </div>
                 </Col>
             </Row>
+            <Row className="mb-5">
+                <div>
+                    <h2><i className="bi bi-book"></i> Souvenir Program</h2>
+                </div>
+                <Col>
+                    <div className="mb-1">
+                        If you&apos;re interested in purchasing personal or profession ad space in the souvenir program for this
+                        year&apos;s gran canao, please see more details below in the link below:
+                    </div>
+                    <a href="https://forms.gle/n7xrBdsNxz6KDHLT6">
+                        <button className="btn btn-primary">Ad Submissions</button>
+                    </a>
+                </Col>
+            </Row>
             <Row className="mb-3">
                 <Col>
                     <div>
@@ -112,7 +126,7 @@ const EventDetails = () => {
                     </div>
                 </Col>
             </Row>
-            <Row>
+            <Row className="mb-3">
                 <Col>
                     <Link href='/'>Go Back</Link>
                 </Col>
