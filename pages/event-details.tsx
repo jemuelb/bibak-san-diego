@@ -38,7 +38,14 @@ const EventDetails = () => {
                         <div>
                             <span className="fw-bold">$45</span> 12 years old & below
                         </div>
-                        <div className="mt-3">For tickets reach out to one of our contacts below.</div>
+                        <div className="mt-3">
+                            <div>
+                                Fill out the form below to request tickets:
+                            </div>
+                            <a href="https://forms.gle/n7xrBdsNxz6KDHLT6">
+                                <button className="btn btn-primary">Request Tickets!</button>
+                            </a>
+                        </div>
                     </div>
                 </Col>
             </Row>
