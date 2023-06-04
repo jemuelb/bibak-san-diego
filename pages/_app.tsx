@@ -1,7 +1,6 @@
 import type {AppProps} from 'next/app'
 import {Analytics} from '@vercel/analytics/react';
 import {MantineProvider} from "@mantine/core";
-import Head from "next/head";
 
 export default function App(props: AppProps) {
     const {Component, pageProps} = props;
