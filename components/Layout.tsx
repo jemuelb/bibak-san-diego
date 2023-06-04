@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import {Container} from 'react-bootstrap';
-import Header from "@/components/Header";
+import TopNav from "@/components/TopNav";
 import React from 'react';
 
 type LayoutProps = {
@@ -17,7 +17,7 @@ const Layout = ({children, title}: LayoutProps) => {
             </Head>
             <main>
                 <Container>
-                    <Header/>
+                    <TopNav/>
                     {children}
                 </Container>
             </main>
