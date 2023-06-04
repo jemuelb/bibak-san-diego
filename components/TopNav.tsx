@@ -6,6 +6,8 @@ const useStyles = createStyles((theme) => ({
         fontSize: theme.headings.sizes.h2.fontSize,
         margin: "1em",
         padding: "1rem",
+        textDecoration: "none",
+        color: theme.black,
     }
 }));
 
@@ -14,8 +16,8 @@ const TopNav = () => {
 
     return (
         <Header height={rem(60)}>
-            <Link href="/" className="d-flex align-items-center text-dark text-decoration-none">
-                <span className={classes.brand}>BIBAK San Diego</span>
+            <Link href="/" className={classes.brand}>
+                BIBAK San Diego
             </Link>
         </Header>
     )
