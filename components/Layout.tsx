@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import {Container} from 'react-bootstrap';
 import TopNav from "@/components/TopNav";
 import React from 'react';
+import {AppShell} from "@mantine/core";
 
 type LayoutProps = {
     children?: React.ReactNode;
@@ -16,10 +16,12 @@ const Layout = ({children, title}: LayoutProps) => {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             <main>
-                <Container>
-                    <TopNav/>
+                <AppShell
+                    padding="md"
+                    navbar={<TopNav/>}
+                >
                     {children}
-                </Container>
+                </AppShell>
             </main>
         </>
     )
